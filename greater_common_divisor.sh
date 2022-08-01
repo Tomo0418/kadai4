@@ -6,22 +6,26 @@ echo "To calculate the greatest common divisor,input numbers for m and n."
 echo "Please input valiable of m. Note:m is only natural number."
 read m
 
-if expr "$m" : "[0-9]*$" >&/dev/null;
+testm=`expr $m - 1`  
+
+if expr "$testm" : "[0-9]*$" >&/dev/null;
 then
 	  echo "OK:m is natural number."
 	else
-          echo "NG:m is not natural number."
+          echo "NG:m is not natural number.Don't input zero,decimal points,negative numbers,character strings."
           exit 1
 fi
 
 echo "Please input valiable of n. Note:n is only natural number." 
 read n
 
-if expr "$n" : "[0-9]*$" >&/dev/null;
+testn=`expr $n - 1`
+
+if expr "$testn" : "[0-9]*$" >&/dev/null;
 then
 	  echo "OK:m is natural number."
 	else 
-	  echo "NG:m is not natural number."
+	  echo "NG:m is not natural number.Don't input zero,decimal points,negative numbers,character strings."
 	  exit 1
 fi
 
