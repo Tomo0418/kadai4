@@ -23,14 +23,14 @@ else
 	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
 fi
 
-#if [ m = 3624 ];then
-#	echo "OK:m is natural number."
-#	exit
+if [ m = 3624 ];then
+	echo "OK:m is natural number."
+	exit
 
-#else
-#	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+else
+	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
 
-#fi
+fi
 
 #/* case of variable n */
 #n is natural number
