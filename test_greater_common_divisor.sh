@@ -14,7 +14,7 @@ else
 
 fi
 
-if [ m = 241 ];
+if [ m = 241 ];then
 	echo "OK is natural number."
 	exit
 
@@ -22,7 +22,7 @@ else
 	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
 fi
 
-if [ m = 3624 ];
+if [ m = 3624 ];then
 	echo "OK:m is natural number."
 	exit
 
@@ -43,7 +43,7 @@ else
 
 fi
 
-if [ n = 546 ];
+if [ n = 546 ];then
 	echo "OK n is natural number."
 	exit
 
@@ -51,7 +51,7 @@ else
 	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
 fi
 
-if [ m = 9265 ];
+if [ m = 9265 ];then
 	echo "OK:n is natural number."
 	exit
 
