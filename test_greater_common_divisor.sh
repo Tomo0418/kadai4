@@ -33,32 +33,32 @@ else
 fi
 
 #/* case of variable n */
-#n is natural number
+n is natural number
 
-#if [ n = 9 ];then
-#	echo "OK:n is natural number."
-#	exit
+if [ n = 9 ];then
+	echo "OK:n is natural number."
+	exit
 
-#else
-#	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+else
+	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
 
-#fi
+fi
 
-#if [ n = 546 ];then
-#	echo "OK n is natural number."
-#	exit
+if [ n = 546 ];then
+	echo "OK n is natural number."
+	exit
 
-#else 
-#	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
-#fi
+else 
+	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+fi
 
-#if [ m = 9265 ];then
-#	echo "OK:n is natural number."
-#	exit
+if [ m = 9265 ];then
+	echo "OK:n is natural number."
+	exit
 
-#else
-#	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
-
+else
+	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+fi
 
 #--------------------------Failure test--------------------------------------
  
