@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#--------------------------Nomal test--------------------------------------
+#---------------------------------Nomal test--------------------------------------
 
 #/* case of variable m */
 
@@ -60,5 +60,30 @@ else
 	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
 fi
 
-#--------------------------Failure test--------------------------------------
+#-----------------------------------Failure test--------------------------------------
  
+#/#--------------Case of two or more variable------------------#/
+
+#/* Case of variable m */
+
+
+if [ m = 125 24 ];then
+	echo "OK:m is natural number."
+	exit
+
+else
+	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+
+fi
+
+#/* Case of variable n */
+
+if [ n = 55 672 ];then
+	echo "OK:n is natural number."
+	exit
+
+else
+	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+
+fi
+
