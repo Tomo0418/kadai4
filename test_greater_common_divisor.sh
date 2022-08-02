@@ -15,13 +15,13 @@ else
 
 fi
 
-#if [ m = 241 ];then
-#	echo "OK is natural number."
-#	exit
+if [ m = 241 ];then
+	echo "OK is natural number."
+	exit
 
-#else 
-#	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
-#fi
+else 
+	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+fi
 
 #if [ m = 3624 ];then
 #	echo "OK:m is natural number."
