@@ -10,8 +10,8 @@ if [ m = 5 ];then
 	exit
 
 else
-	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
-
+	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 fi
 
 if [ m = 241 ];then
@@ -19,15 +19,19 @@ if [ m = 241 ];then
 	exit
 
 else 
-	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1	
+
 fi
+
 
 if [ m = 3624 ];then
 	echo "OK:m is natural number."
 	exit
 
 else
-	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
@@ -38,7 +42,7 @@ if [ n = 9 ];then
 	exit
 
 else
-	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
 
 fi
 
@@ -47,7 +51,7 @@ if [ n = 546 ];then
 	exit
 
 else 
-	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
 fi
 
 if [ m = 9265 ];then
@@ -55,14 +59,14 @@ if [ m = 9265 ];then
 	exit
 
 else
-	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
 fi
 
 #-----------------------------------Failure test--------------------------------------
  
-#/###--------------case : number of variable------------------###/
+#/###--------------case : number ofinputting argument to variable------------------###/
 
-#/#-------------No variable-------------#/
+#/#-------------No argument-------------#/
 #/* Case of variable m */
 
 if [ m =  ];then
@@ -70,7 +74,8 @@ if [ m =  ];then
 	exit
 
 else
-	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
@@ -81,20 +86,23 @@ if [ n =  ];then
 	exit
 
 else
-	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
-#/#--------------Case of two or more variable------------------#/
+#/#--------------Case of inputting two more numbers to m of variable--------------#/
 #/* Case of variable m */
 
 
-iif [ m = 125 24 ];then
+if [ m = 125 24 ];
+then
 	echo "OK:m is natural number."
 	exit
 
 else
-	echo "NG:m is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
@@ -105,7 +113,7 @@ if [ n = 55 672 ];then
 	exit
 
 else
-	echo "NG:n is not natural.Don't input zero,decimal points,negative numbers,character strings."
+	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
 
 fi
 
