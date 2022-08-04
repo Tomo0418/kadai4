@@ -5,7 +5,8 @@
 
 #/* case of variable m */
 
-if [ m = 5 ];then
+if [ m = 5 ];
+then
 	echo "OK:m is natural number."
 	exit
 
@@ -14,7 +15,8 @@ else
 	exit1
 fi
 
-if [ m = 241 ];then
+if [ m = 241 ];
+then
 	echo "OK is natural number."
 	exit
 
@@ -142,6 +144,7 @@ then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
@@ -169,6 +172,7 @@ then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
@@ -196,6 +200,7 @@ then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
 
 fi
 
