@@ -11,7 +11,7 @@ if [ m = 5 ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 fi
 
 if [ m = 241 ];then
@@ -20,7 +20,7 @@ if [ m = 241 ];then
 
 else 
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1	
+	exit	
 
 fi
 
@@ -31,7 +31,7 @@ if [ m = 3624 ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -60,6 +60,8 @@ if [ m = 9265 ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit
+
 fi
 
 #-----------------------------------Failure test--------------------------------------
@@ -74,7 +76,7 @@ if [ m = 125 24 ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -86,6 +88,7 @@ if [ n = 55 672 ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit
 
 fi
 
@@ -99,7 +102,7 @@ if [ m = 0 ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -111,6 +114,7 @@ if [ n = 0 ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit
 
 fi
 
@@ -124,7 +128,7 @@ if [ m = 3.9 ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -136,7 +140,7 @@ if [ n = 0.8 ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -150,7 +154,7 @@ if [ m = -13 ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -162,7 +166,7 @@ if [ n = -104 ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -176,7 +180,7 @@ if [ m = saitou ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -188,7 +192,7 @@ if [ n = tomoaki ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -201,7 +205,7 @@ if [ m =  ];then
 
 else
 	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
@@ -213,7 +217,7 @@ if [ n =  ];then
 
 else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
+	exit
 
 fi
 
