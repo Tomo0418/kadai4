@@ -1,5 +1,6 @@
 #!/bin/bash 
 
+
 #Input of number to valiable 
 echo "To calculate the greatest common divisor,input numbers for m and n."
 
