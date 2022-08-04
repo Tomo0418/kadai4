@@ -69,7 +69,8 @@ fi
 #/#-------------No argument-------------#/
 #/* Case of variable m */
 
-if [ m =  ];then
+if [ m =  ];
+then
 	echo "OK:m is natural number."
 	exit
 
@@ -81,7 +82,8 @@ fi
 
 #/* Case of variable n */
 
-if [ n =  ];then
+if [ n =  ];
+then
 	echo "OK:n is natural number."
 	exit
 
@@ -108,7 +110,8 @@ fi
 
 #/* Case of variable n */
 
-if [ n = 55 672 ];then
+if [ n = 55 672 ];
+then
 	echo "OK:n is natural number."
 	exit
 
@@ -134,7 +137,8 @@ fi
 
 #/* Case of variable n */
 
-if [ n = 0 ];then
+if [ n = 0 ];
+then
 	echo "OK:n is natural number."
 	exit
 
@@ -160,7 +164,8 @@ fi
 
 #/* Case of variable n */
 
-if [ n = 0.8 ];then
+if [ n = 0.8 ];
+then
 	echo "OK:n is natural number."
 	exit
 
@@ -186,7 +191,8 @@ fi
 
 #/* Case of variable n */
 
-if [ n = -104 ];then
+if [ n = -104 ];
+then
 	echo "OK:n is natural number."
 	exit
 
@@ -195,7 +201,7 @@ else
 
 fi
 
-#/#--------------Case of inputting decimal points to variable--------------#/
+#/#--------------Case of inputting character strings to variable--------------#/
 #/* Case of variable m */
 
 
