@@ -3,3 +3,4 @@ script:
   - echo hello
   - echo Travis CI test in .travis.yml
   - ./test_greater_common_divisor.sh
+
