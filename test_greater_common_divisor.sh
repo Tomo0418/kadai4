@@ -64,35 +64,6 @@ fi
 
 #-----------------------------------Failure test--------------------------------------
  
-#/###--------------case : number of inputting argument to variable------------------###/
-
-#/#-------------No argument-------------#/
-#/* Case of variable m */
-
-if [ m =  ];
-then
-	echo "OK:m is natural number."
-	exit
-
-else
-	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
-
-fi
-
-#/* Case of variable n */
-
-if [ n =  ];
-then
-	echo "OK:n is natural number."
-	exit
-
-else
-	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
-	exit1
-
-fi
-
 #/#--------------Case of inputting two more numbers to variable--------------#/
 #/* Case of variable m */
 
@@ -227,3 +198,31 @@ else
 	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
 
 fi
+
+#/#-------------Case of iputting no argument to variable-------------#/
+#/* Case of variable m */
+
+if [ m =  ];
+then
+	echo "OK:m is natural number."
+	exit
+
+else
+	echo "NG:m is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
+
+fi
+
+#/* Case of variable n */
+
+if [ n =  ];
+then
+	echo "OK:n is natural number."
+	exit
+
+else
+	echo "NG:n is not natural.Don't input multiple numbers,zero,decimal points,negative numbers,character strings."
+	exit1
+
+fi
+
